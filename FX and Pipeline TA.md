@@ -1,5 +1,4 @@
-<iframe src="https://player.vimeo.com/video/1107621546?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="3840" height="2160" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media; web-share" referrerpolicy="strict-origin-when-cross-origin" title="Fuel Up Crash Sequence - Development Log"></iframe>
-The text below is a transcript of the video.
+The text below is a transcript of my [portfolio demo video](https://vimeo.com/1107621546).
 ## The Job
 For the racing film Fuel Up I was responsible for all VFX for the sequence where the main character's boyfriend dies in a violent racecar crash on a rainy night. The director and producers intended to shoot several of these shots against a volume wall, therefore everything I built needed to run in real-time in UE5.
 ## The Plan
