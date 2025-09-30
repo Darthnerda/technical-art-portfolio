@@ -1,10 +1,6 @@
 CAPBLDG is an interactive mosaic made of conservative memes posted by users of the social media Parler during the January 6th storming of the capitol building. It was designed to work both on the 15,360 x 4,320 pixel Vroom wall at UC San Diego and on the web in a crossplay fashion.
 
-Visitors to the Vroom wall could visit a webpage on their smartphone that allowed them to control a cursor for enlarging images in the mosaic. You can simulate the experience by pulling up the vroom page on your laptop or desktop and the controls page on your phone. Try moving the vroom cursor around by swiping on the controls page.
-
-[Vroom page](https://data.r-shief.org/CAPBLDG-canvas/?vroom=true)
-
-[Controls page](https://data.r-shief.org/CAPBLDG-controls)
+Visitors to the Vroom wall could visit a webpage on their smartphone that allowed them to control a cursor for enlarging images in the mosaic.
 
 The web version uses the same machinery, but let's users control their cursor directly with their mouse. If multiple people were checking out CAPBLDG at the same time as you, you would each be able to see the other's cursor on the same page. Users can drag a slider to fluidly swap mosaics to a night theme and a second bank of images.
 

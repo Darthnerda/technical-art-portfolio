@@ -1,1 +1,0 @@
-This is my technical art portfolio
