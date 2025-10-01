@@ -1,4 +1,4 @@
-One of many things I did for the feature documentary Epic Bill was creating animated race maps with Unity, Quixel Mixer, and an Oculus Quest 2.
+One of many things I did for the feature documentary Epic Bill was creating animated race maps with Unity, Quixel Mixer, and an Oculus Quest 2. 
 
 ![EBB-Arrowhead-01.webp](https://pub-568840b43a02402fa8b7f4b45571f13c.r2.dev/5/EBB_Arrowhead_01_5192991240.webp)
 
