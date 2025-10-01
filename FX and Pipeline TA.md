@@ -37,8 +37,9 @@ Besides the softbody deforming pieces, each racecar was made up of nearly 2000 t
 
 Rain was executed as a Niagara system, and the mist particulate was brought in as a Niagara point cache and shaded as circular sprites. I also briefly experimented with using VDB animations for the mist but quality came at too steep a performance cost.
 ## Mist
-![](https://pub-568840b43a02402fa8b7f4b45571f13c.r2.dev/portfolio/fuelup/fuelup_clips_06.webp)
 I felt that it would dramatically improve the project to simulate the effect of rain aerosolizing into a fine particulate mist upon contact with the vehicle, and between the wheels and the ground.
+
+![](https://pub-568840b43a02402fa8b7f4b45571f13c.r2.dev/portfolio/fuelup/fuelup_clips_06.webp)
 
 I started with a simple rain sim, where raindrops die upon collision. Whenever a raindrop lands I spawn a cluster of ejecta points which bounce away for a single frame before dying. I also added ejecta point emitters at the bottom of the wheels.
 
@@ -46,7 +47,8 @@ I started with a simple rain sim, where raindrops die upon collision. Whenever a
 
 I rasterize these ejecta points into a high resolution VDB volume, transferring ejecta velocities to the volume. I then advect the VDB with the pyro solver, treating it like a zero buoyancy, quickly dissipating smoke. The result is a cloudy mist look. To get the fine particulate look, I use the resulting VDB as a velocity field to transfer the misty motion to the ejecta points from earlier.
 ## Lookdev
-![](https://pub-568840b43a02402fa8b7f4b45571f13c.r2.dev/portfolio/fuelup/car_material.jpg)
 I took advantage of the slab-based Substrate BSDF in UE5 to enhance the car materials. For the main body I created a dirt layer, a coat layer, and a base layer, and added view-angle dependent sparkles. All glass uses the thin translucent shading model.
+
+![](https://pub-568840b43a02402fa8b7f4b45571f13c.r2.dev/portfolio/fuelup/car_material.jpg)
 
 The rain and mist are small sprites using the Thin Translucent shading model. They simulate the smearing effect of motion blur by stretching the sprite.
